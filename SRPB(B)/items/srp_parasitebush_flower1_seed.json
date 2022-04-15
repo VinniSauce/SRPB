@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "Nature",
+      "identifier": "srp:parasitebush_flower1_seed"
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "srp:parasitebush_flower1"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "texture": "srp_parasitebush_flower1"
+      }
+    }
+  }
+}

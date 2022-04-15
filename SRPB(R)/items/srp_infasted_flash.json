@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:infasted_flash",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:infasted_flash",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

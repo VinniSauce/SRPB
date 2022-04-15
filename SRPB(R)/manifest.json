@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§4Scape and Run: Parasites",
+		"description": "§eНеофициальное издание для карманной версии",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "700978fe-b9a8-11ec-8422-0242ac120002",
+		"version": [
+			0,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"description": "§eНеофициальное издание для карманной версии",
+			"type": "resources",
+			"uuid": "70097b92-b9a8-11ec-8422-0242ac120002",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+    "dependencies": [
+        {
+			"uuid":"4e2b1c5e-b9aa-11ec-8422-0242ac120002",
+			"version": [
+			    0,
+				0,
+				1
+			]
+		}	
+     ]             
+}

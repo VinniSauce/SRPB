@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "living_core_5b11de3d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCB"
+    ],
+    "key": {
+      "A": {
+        "item": "srp:core_sammoner",
+        "data": 0
+      },
+      "B": {
+        "item": "srp:infasted_flash",
+        "data": 0
+      },
+      "C": {
+        "item": "srp:core_eater",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "srp:living_core",
+      "count": 1
+    }
+  }
+}

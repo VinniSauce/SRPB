@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:null",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:null",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

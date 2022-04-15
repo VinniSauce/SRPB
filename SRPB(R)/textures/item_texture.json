@@ -1,0 +1,189 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "srp_parasitebush_arc": {
+      "textures": "textures/items/srp_parasitebush_arc"
+    },
+    "srp_parasitebush_flower1": {
+      "textures": "textures/items/srp_parasitebush_flower1"
+    },
+    "srp_parasitebush_grass1": {
+      "textures": "textures/items/srp_parasitebush_grass1"
+    },
+    "srp_parasitebush_grass2": {
+      "textures": "textures/items/srp_parasitebush_grass2"
+    },
+    "srp_parasitesapling_flowertall": {
+      "textures": "textures/items/srp_parasitesapling_flowertall"
+    },
+    "srp_parasitesapling_tree": {
+      "textures": "textures/items/srp_parasitesapling_tree"
+    },
+    "srp_parasitebush_arc2": {
+      "textures": "textures/items/srp_parasitebush_arc2"
+    },
+    "srp_alive_serp": {
+      "textures": "textures/items/pamobile/srp_alive_serp"
+    },
+    "srp_alive_serp2": {
+      "textures": "textures/items/pamobile/srp_alive_serp2"
+    },
+    "srp_alive_axe": {
+      "textures": "textures/items/pamobile/srp_alive_axe"
+    },
+    "srp_alive_axe2": {
+      "textures": "textures/items/pamobile/srp_alive_axe2"
+    },
+    "srp_living_sword": {
+      "textures": "textures/items/pamobile/srp_living_sword"
+    },
+    "srp_sentient_sword": {
+      "textures": "textures/items/pamobile/srp_sentient_sword"
+    },
+    "srp_living_cleaver": {
+      "textures": "textures/items/pamobile/srp_living_cleaver"
+    },
+    "srp_living_bow": {
+      "textures": "textures/items/pamobile/srp_living_bow"
+    },
+    "srp_sentient_cleaver": {
+      "textures": "textures/items/pamobile/srp_sentient_cleaver"
+    },
+    "srp_sentient_bow": {
+      "textures": "textures/items/pamobile/srp_sentient_bow"
+    },
+    "srp:core_eater": {
+      "textures": "textures/items/pamobile/srp_core_eater"
+    },
+    "srp:bone_yeloweye": {
+      "textures": "textures/items/pamobile/srp_bone_yeloweye"
+    },
+    "srp:core_sammoner": {
+      "textures": "textures/items/pamobile/srp_core_sammoner"
+    },
+    "srp:infasted_flash": {
+      "textures": "textures/items/pamobile/srp_infasted_flash"
+    },
+    "srp:longarm_defence_shard": {
+      "textures": "textures/items/pamobile/srp_longarm_defence_shard"
+    },
+    "srp:null": {
+      "textures": "textures/items/pamobile/srp_null"
+    },
+    "srp_null_two": {
+      "textures": "textures/items/pamobile/srp_null_two"
+    },
+    "srp:bone_evilcrath": {
+      "textures": "textures/items/pamobile/srp_bone_evilcrath"
+    },
+    "srp:dirty_horses": {
+      "textures": "textures/items/pamobile/srp_dirty_horses"
+    },
+    "srp:dried_tendons": {
+      "textures": "textures/items/pamobile/srp_dried_tendons"
+    },
+    "srp:handled_bone_handle": {
+      "textures": "textures/items/pamobile/srp_handled_bone_handle"
+    },
+    "srp:living_core": {
+      "textures": "textures/items/pamobile/srp_living_core"
+    },
+    "srp:infasted_blade_fragment": {
+      "textures": "textures/items/pamobile/srp_infasted_blade_fragment"
+    },
+    "srp:bone_strange": {
+      "textures": "textures/items/pamobile/srp_bone_strange"
+    },
+    "srp:vile_shell": {
+      "textures": "textures/items/pamobile/srp_vile_shell"
+    },
+    "srp:small_piece": {
+      "textures": "textures/items/pamobile/srp_small_piece"
+    },
+    "srp:small_piece_2": {
+      "textures": "textures/items/pamobile/srp_small_piece_2"
+    },
+    "srp:infasted_once": {
+      "textures": "textures/items/pamobile/srp_infasted_once"
+    },
+    "srp:evil_once": {
+      "textures": "textures/items/pamobile/srp_evil_once"
+    },
+    "srp:rot_sigment": {
+      "textures": "textures/items/pamobile/srp_rot_sigment"
+    },
+    "srp:essential_sigment": {
+      "textures": "textures/items/pamobile/srp_essential_sigment"
+    }
+  }
+}
