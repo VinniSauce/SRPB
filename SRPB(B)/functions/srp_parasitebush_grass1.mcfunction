@@ -1,1 +1,0 @@
-give @s srp:parasitebush_grass1

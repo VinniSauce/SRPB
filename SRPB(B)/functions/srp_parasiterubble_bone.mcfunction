@@ -1,1 +1,0 @@
-give @s srp:parasiterubble_bone

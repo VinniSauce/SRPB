@@ -1,1 +1,0 @@
-give @s srp:living_cleaver

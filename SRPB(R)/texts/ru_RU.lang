@@ -1,0 +1,34 @@
+tile.srp:infested_dirt=Зараженная грязь
+
+item.srp:infected_flesh=Зараженная плоть
+
+item.srp:yelloweye_bone=Кость желтоглаза
+item.srp:reeker_fang=Клык зловонного
+item.srp:summoner_core=Ядро призывателя
+item.srp:manducater_orb=Сфера пожирателя
+item.srp:longarms_armor_fragment=Фрагмент брони длиннорукого
+
+item.srp:lurecomp1=Руптер Мясо
+item.srp:lurecomp2=Больное сердце
+item.srp:lurecomp3=Измененные сухожилия
+item.srp:lurecomp4=Токсическое легкое
+item.srp:lurecomp5=Ядовитый мозг
+item.srp:lurecomp6=Основная часть
+
+item.srp:living_core=Живое ядро
+item.srp:hardened_bone_handle=Рукоять из закаленной кости
+item.srp:infectious_blade_fragment=Инфекционная часть лезвия
+item.srp:vile_shell=Мерзкая оболочка
+item.srp:dried_tendons=Высушенные сухожилия
+
+item.srp:living_sword=Живой меч
+item.srp:living_scythe=Живая коса
+item.srp:living_bow=Живой Лук
+item.srp:living_cleaver=Живой тесак
+item.srp:living_axe=Живой топор
+
+item.srp:sentient_sword=Разумный меч
+item.srp:sentient_scythe=Разумный коса
+item.srp:sentient_bow=Разумный Лук
+item.srp:sentient_cleaver=Разумный тесак
+item.srp:sentient_axe=Разумный топор

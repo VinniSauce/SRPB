@@ -1,1 +1,0 @@
-give @s srp:alive_serp

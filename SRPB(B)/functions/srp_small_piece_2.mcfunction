@@ -1,1 +1,0 @@
-give @s srp:small_piece_2

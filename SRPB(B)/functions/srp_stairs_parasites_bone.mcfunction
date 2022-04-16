@@ -1,1 +1,0 @@
-give @s srp:stairs_parasites_bone

@@ -1,1 +1,0 @@
-give @s srp:parasites_slab

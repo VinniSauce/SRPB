@@ -1,1 +1,0 @@
-give @s srp:dirty_horses

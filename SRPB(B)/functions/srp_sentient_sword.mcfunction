@@ -1,1 +1,0 @@
-give @s srp:sentient_sword

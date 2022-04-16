@@ -1,1 +1,0 @@
-give @s srp:parasitebush_flower1

@@ -1,1 +1,0 @@
-give @s srp:parasitetrunk_ball

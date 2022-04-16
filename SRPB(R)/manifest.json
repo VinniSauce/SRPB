@@ -1,8 +1,8 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§4Scape and Run: Parasites",
-		"description": "§eНеофициальное издание для карманной версии",
+		"name": "srp.packname",
+		"description": "srp.packdesc",
 		"min_engine_version": [
 			1,
 			18,
@@ -17,7 +17,7 @@
 	},
 	"modules": [
 		{
-			"description": "§eНеофициальное издание для карманной версии",
+			"description": "srp.packdesc",
 			"type": "resources",
 			"uuid": "70097b92-b9a8-11ec-8422-0242ac120002",
 			"version": [

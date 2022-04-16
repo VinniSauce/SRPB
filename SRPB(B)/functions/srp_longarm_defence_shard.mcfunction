@@ -1,1 +1,0 @@
-give @s srp:longarm_defence_shard

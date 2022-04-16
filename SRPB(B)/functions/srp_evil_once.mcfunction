@@ -1,1 +1,0 @@
-give @s srp:evil_once

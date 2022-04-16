@@ -1,1 +1,0 @@
-give @s srp:rot_sigment

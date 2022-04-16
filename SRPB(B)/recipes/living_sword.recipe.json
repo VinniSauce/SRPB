@@ -1,0 +1,34 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " ##",
+            "ST#",
+            "DS "
+        ],
+        "key": {
+            "#": {
+                "item": "srp:infectious_blade_fragment"
+            },
+            "S": {
+                "item": "srp:vile_shell"
+            },
+            "T": {
+                "item": "srp:living_core"
+            },
+            "D": {
+                "item": "srp:hardened_bone_handle"
+            }
+        },
+        "result": {
+            "item": "srp:living_sword",
+            "count": 1
+        },
+        "description": {
+            "identifier": "srp:living_sword"
+        }
+    }
+}
