@@ -12,7 +12,7 @@
             "minecraft:icon": {
                 "texture": "infectious_blade_fragment"
             },
-            "minecraft:max_stack_size": 64
+            "minecraft:max_stack_size": 16
         }
     }
 }
