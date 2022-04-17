@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:rot_sigment",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:rot_sigment",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

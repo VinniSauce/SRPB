@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:essential_sigment",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:essential_sigment",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:vile_shell",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:vile_shell",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

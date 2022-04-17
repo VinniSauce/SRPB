@@ -1,0 +1,1 @@
+give @s srp:alive_axe

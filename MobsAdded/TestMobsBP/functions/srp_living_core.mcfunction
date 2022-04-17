@@ -1,0 +1,1 @@
+give @s srp:living_core

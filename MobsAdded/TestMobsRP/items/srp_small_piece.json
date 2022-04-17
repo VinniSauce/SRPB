@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:small_piece",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:small_piece",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
