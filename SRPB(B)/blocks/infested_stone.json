@@ -1,0 +1,20 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "srp:infested_stone"
+    },
+    "components": {
+      "minecraft:creative_category": {
+				"category": "nature",
+        "group": "itemGroup.name.infested_blocks"
+			},
+      "minecraft:loot": "loot_tables/blocks/infested_stone.json",
+			"minecraft:explosion_resistance": 36,
+      "minecraft:destroy_time": 8,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#4b4d1b",
+      "minecraft:entity_collision": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "srp:cyst"
+    },
+    "components": {
+      "minecraft:creative_category": {
+				"category": "nature",
+        "group": "itemGroup.name.parasite_decor"
+			},
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:immovable": true,
+			"minecraft:explosion_resistance": 12,
+      "minecraft:destroy_time": 5,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#5b2820",
+      "minecraft:entity_collision": true,
+      "minecraft:geometry": "geometry.cyst",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cyst",
+        	"render_method": "alpha_test",
+					"face_dimming": true,
+					"ambient_occlusion": false
+				}
+      }
+    }
+  }
+}

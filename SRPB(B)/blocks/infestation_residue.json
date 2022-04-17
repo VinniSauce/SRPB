@@ -1,0 +1,83 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "srp:infestation_residue"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "itemGroup.name.parasite_decor"
+      },
+      "minecraft:random_ticking": {
+        "on_tick": {
+          "event": "decay",
+          "target": "self"
+        }
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:explosion_resistance": 0,
+      "minecraft:destroy_time": 1,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#28330d",
+      "minecraft:entity_collision": false,
+      "minecraft:geometry": "geometry.residue",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:pick_collision": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          2.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infestation_residue",
+          "render_method": "alpha_test",
+          "face_dimming": true,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "srp:infested_dirt",
+              "minecraft:dirt"
+            ]
+          }
+        ]
+      }
+    },
+    "events": {
+      "decay": {
+        "randomize": [
+          {
+            "weight": 99,
+            "run_command": {
+              "command": [
+                "setblock ~ ~ ~ air"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "run_command": {
+              "command": [
+                "summon zombie"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+    "num_mip_levels": 0,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "template": {
+            "textures": {
+                "variations": [
+                    {
+                        "path": "textures/blocks/dark_oak_planks/0"
+                    }
+                ]
+            }
+        },
+        "cyst": {
+            "textures": "textures/blocks/cyst"
+        },
+        "infested_dirt": {
+            "textures": "textures/blocks/infested_dirt"
+        },
+        "infested_stone": {
+            "textures": "textures/blocks/infested_stone"
+        },
+        "infested_log_side": {
+            "textures": "textures/blocks/infested_log_side"
+        },
+        "infested_log_top": {
+            "textures": "textures/blocks/infested_log_top"
+        },
+        "infestation_residue": {
+            "textures": "textures/blocks/infestation_residue"
+        },
+        "infestation_plant_1": {
+            "textures": "textures/blocks/infestation_plant_1"
+        },
+        "infestation_plant_2": {
+            "textures": "textures/blocks/infestation_plant_2"
+        },
+        "infestation_plant_3": {
+            "textures": "textures/blocks/infestation_plant_3"
+        },
+        "infestation_plant_4": {
+            "textures": "textures/blocks/infestation_plant_4"
+        },
+        "infestation_plant_5": {
+            "textures": "textures/blocks/infestation_plant_5"
+        },
+        "infestation_plant_6": {
+            "textures": "textures/blocks/infestation_plant_6"
+        },
+        "infestation_plant_7": {
+            "textures": "textures/blocks/infestation_plant_7"
+        },
+        "infestation_plant_8": {
+            "textures": "textures/blocks/infestation_plant_8"
+        },
+        "infestation_plant_9": {
+            "textures": "textures/blocks/infestation_plant_9"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "srp:cyst_active",
+			"materials": {
+				"default": "endermite"
+			},
+			"textures": {
+				"default": "textures/blocks/cyst"
+			},
+			"geometry": {
+				"default": "geometry.cyst"
+			},
+			"render_controllers": [
+				"controller.render.endermite"
+			],
+			"spawn_egg": {
+				"texture": "parasite_spawn_egg",
+				"texture_index": 1
+			}
+		}
+	}
+}

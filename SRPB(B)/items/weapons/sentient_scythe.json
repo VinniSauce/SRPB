@@ -20,6 +20,13 @@
 			},
 			"minecraft:render_offsets": {
                 "main_hand": {
+					"first_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					},
                     "third_person": {
                         "position": [
                             0.6,

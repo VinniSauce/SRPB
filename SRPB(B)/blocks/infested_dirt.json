@@ -1,0 +1,19 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "srp:infested_dirt"
+    },
+    "components": {
+      "minecraft:creative_category": {
+				"category": "nature",
+        "group": "itemGroup.name.infested_blocks"
+			},
+			"minecraft:explosion_resistance": 24,
+      "minecraft:destroy_time": 5,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#4b4d1b",
+      "minecraft:entity_collision": true
+    }
+  }
+}

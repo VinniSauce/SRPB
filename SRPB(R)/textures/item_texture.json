@@ -81,6 +81,12 @@
         },
         "sentient_bow": {
             "textures": "textures/items/weapons/sentient_bow"
+        },
+        "parasite_spawn_egg": {
+            "textures": [
+                "textures/items/egg/default",
+                "textures/items/egg/cyst"
+            ]
         }
     },
     "texture_name": "atlas.items"

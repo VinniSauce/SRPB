@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cyst_item_pull_loop": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"loop": "query.is_alive"
+						}
+					]
+				},
+				"loop": {
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					],
+					"on_entry": [
+						"/execute @e[type=srp:cyst_active] ~ ~ ~ tp @e[type=item,r=8] ~ ~1 ~"
+					]
+				}
+			},
+			"initial_state": "default"
+		}
+	}
+}

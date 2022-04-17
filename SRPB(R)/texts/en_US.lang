@@ -1,5 +1,27 @@
 tile.srp:infested_dirt=Infested Dirt
 
+
+
+
+
+tile.srp:cyst.name=Cyst
+tile.srp:infestation_residue.name=Infestation Residue
+tile.srp:infested_log.name=Infested Log
+tile.srp:infested_dirt.name=Infested Dirt
+tile.srp:infested_stone.name=Infested Stone
+
+tile.srp:infestation_plant_1.name=Short Infestation Sprouts
+tile.srp:infestation_plant_2.name=Tall Infestation Sprout
+tile.srp:infestation_plant_3.name=Budding Infestation Sprouts
+tile.srp:infestation_plant_4.name=Emerging Infestation Spike
+tile.srp:infestation_plant_5.name=Arching Infestation Vein
+tile.srp:infestation_plant_6.name=Thorny Infestation Vein
+tile.srp:infestation_plant_7.name=Blooming Thorny Infestation Vein
+tile.srp:infestation_plant_8.name=Helix Infestation Vein
+tile.srp:infestation_plant_9.name=Blooming Helix Infestation Vein
+
+
+
 item.srp:infected_flesh=Infected Flesh
 
 item.srp:yelloweye_bone=Yelloweye Bone
@@ -32,3 +54,10 @@ item.srp:sentient_scythe=Sentient Scythe
 item.srp:sentient_bow=Sentient Bow
 item.srp:sentient_cleaver=Sentient Cleaver
 item.srp:sentient_axe=Sentient Axe
+
+srp.packdesc=This mod adds hostile parasite-themed mobs to your Minecraft game for you to fight, they can be dangerous, scary and some of them can learn from their fights to evolve.
+srp.packname=Scape & Run: Parasites
+
+
+item.spawn_egg.entity.srp:cyst_active.name=Spawn Active Cyst
+entity.srp:cyst_active.name=Active Cyst

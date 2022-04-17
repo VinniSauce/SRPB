@@ -1,0 +1,80 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "srp:template": {
+        "textures": {
+            "side": "infested_dirt",
+            "up": "infested_dirt",
+            "down": "infested_dirt"
+        },
+        "sound": "dirt"
+    },
+    "srp:cyst": {
+        "textures": "cyst",
+        "isotropic": false,
+        "sound": "netherrack"
+    },
+    "srp:infested_dirt": {
+        "textures": "infested_dirt",
+        "isotropic": true,
+        "sound": "gravel"
+    },
+    "srp:infested_stone": {
+        "textures": "infested_stone",
+        "isotropic": true,
+        "sound": "netherrack"
+    },
+    "srp:infestation_residue": {
+        "textures": "infestation_residue",
+        "isotropic": true,
+        "sound": "slime"
+    },
+    "srp:infestation_plant_1": {
+        "textures": "infestation_plant_1",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_2": {
+        "textures": "infestation_plant_2",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_3": {
+        "textures": "infestation_plant_3",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_4": {
+        "textures": "infestation_plant_4",
+        "isotropic": false,
+        "sound": "wood"
+    },
+    "srp:infestation_plant_5": {
+        "textures": "infestation_plant_5",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_6": {
+        "textures": "infestation_plant_6",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_7": {
+        "textures": "infestation_plant_7",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_8": {
+        "textures": "infestation_plant_8",
+        "isotropic": false,
+        "sound": "leaves"
+    },
+    "srp:infestation_plant_9": {
+        "textures": "infestation_plant_9",
+        "isotropic": false,
+        "sound": "leaves"
+    }
+}
