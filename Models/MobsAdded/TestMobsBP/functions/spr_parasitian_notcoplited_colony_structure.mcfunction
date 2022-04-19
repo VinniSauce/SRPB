@@ -1,0 +1,1 @@
+give @s spr:parasitian_notcoplited_colony_structure

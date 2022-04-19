@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "srp:living_bow",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/srp_living_bow"
+      },
+      "geometry": {
+        "default": "geometry.pabullet"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.srp_living_bow"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 99
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "srp:null_two",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/srp_null_two"
+      },
+      "geometry": {
+        "default": "geometry.pabullet"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.srp_null_two"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 99
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

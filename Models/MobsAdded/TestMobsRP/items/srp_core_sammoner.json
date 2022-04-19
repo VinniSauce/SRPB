@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "srp:core_sammoner",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "srp:core_sammoner",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

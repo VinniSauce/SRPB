@@ -1,0 +1,1 @@
+give @s srp:flesh_parasitian_stairs

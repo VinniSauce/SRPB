@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vile_shell_f621e796"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "srp:longarm_defence_shard",
+        "data": 0
+      },
+      "B": {
+        "item": "srp:infasted_flash",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "srp:vile_shell",
+      "count": 1
+    }
+  }
+}

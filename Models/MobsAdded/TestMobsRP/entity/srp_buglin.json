@@ -1,0 +1,32 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "srp:buglin",
+      "materials": {
+        "default": "endermite"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/srp_buglin"
+      },
+      "geometry": {
+        "default": "geometry.endermite"
+      },
+      "animations": {
+        "move": "animation.endermite.move"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.endermite.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.endermite"
+      ],
+      "spawn_egg": {
+        "texture": "srp:buglin",
+        "texture_index": 0
+      }
+    }
+  }
+}

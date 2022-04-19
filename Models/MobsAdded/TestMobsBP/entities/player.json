@@ -1,0 +1,582 @@
+{
+  "format_version": "1.11",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "walk",
+          "srp:null_two",
+          "srp:sentient_bow",
+          "srp:living_bow"
+        ]
+      },
+      "animations": {
+        "walk": "controller.animation.walk",
+        "srp:null_two": "controller.animation.srp_null_two",
+        "srp:sentient_bow": "controller.animation.srp_sentient_bow",
+        "srp:living_bow": "controller.animation.srp_living_bow"
+      }
+    },
+    "component_groups": {
+      "pamobile:respawn": {
+        "minecraft:mark_variant": {
+          "value": 99999
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": []
+        }
+      },
+      "ammo:1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "srp:alive_serp": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:alive_serp2": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:alive_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:alive_axe2": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:living_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:sentient_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:living_cleaver": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:sentient_cleaver": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "srp:null_two_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "srp:null_two",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "srp:sentient_bow_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "srp:sentient_bow",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "srp:living_bow_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "srp:living_bow",
+            "num_to_spawn": 1
+          }
+        ]
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "pamobile:refresh_player"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:alive_serp"
+                }
+              ]
+            },
+            "event": "srp:alive_serp_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:alive_serp2"
+                }
+              ]
+            },
+            "event": "srp:alive_serp2_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:alive_axe"
+                }
+              ]
+            },
+            "event": "srp:alive_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:alive_axe2"
+                }
+              ]
+            },
+            "event": "srp:alive_axe2_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:living_sword"
+                }
+              ]
+            },
+            "event": "srp:living_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:sentient_sword"
+                }
+              ]
+            },
+            "event": "srp:sentient_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:living_cleaver"
+                }
+              ]
+            },
+            "event": "srp:living_cleaver_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:sentient_cleaver"
+                }
+              ]
+            },
+            "event": "srp:sentient_cleaver_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:null_two"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:sentient_bow"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "srp:living_bow"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        }
+      ],
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {}
+    },
+    "events": {
+      "pamobile:refresh_player": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "srp:alive_serp",
+            "srp:alive_serp2",
+            "srp:alive_axe",
+            "srp:alive_axe2",
+            "srp:living_sword",
+            "srp:sentient_sword",
+            "srp:living_cleaver",
+            "srp:sentient_cleaver"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {}
+      },
+      "ammo:1": {
+        "remove": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        }
+      },
+      "ammo:2": {
+        "remove": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        }
+      },
+      "srp:alive_serp_event": {
+        "add": {
+          "component_groups": [
+            "srp:alive_serp"
+          ]
+        }
+      },
+      "srp:alive_serp2_event": {
+        "add": {
+          "component_groups": [
+            "srp:alive_serp2"
+          ]
+        }
+      },
+      "srp:alive_axe_event": {
+        "add": {
+          "component_groups": [
+            "srp:alive_axe"
+          ]
+        }
+      },
+      "srp:alive_axe2_event": {
+        "add": {
+          "component_groups": [
+            "srp:alive_axe2"
+          ]
+        }
+      },
+      "srp:living_sword_event": {
+        "add": {
+          "component_groups": [
+            "srp:living_sword"
+          ]
+        }
+      },
+      "srp:sentient_sword_event": {
+        "add": {
+          "component_groups": [
+            "srp:sentient_sword"
+          ]
+        }
+      },
+      "srp:living_cleaver_event": {
+        "add": {
+          "component_groups": [
+            "srp:living_cleaver"
+          ]
+        }
+      },
+      "srp:sentient_cleaver_event": {
+        "add": {
+          "component_groups": [
+            "srp:sentient_cleaver"
+          ]
+        }
+      },
+      "srp:null_two_fire": {
+        "add": {
+          "component_groups": [
+            "srp:null_two_fire"
+          ]
+        }
+      },
+      "srp:sentient_bow_fire": {
+        "add": {
+          "component_groups": [
+            "srp:sentient_bow_fire"
+          ]
+        }
+      },
+      "srp:living_bow_fire": {
+        "add": {
+          "component_groups": [
+            "srp:living_bow_fire"
+          ]
+        }
+      }
+    }
+  }
+}
