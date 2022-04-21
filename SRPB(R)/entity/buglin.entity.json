@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "srp:buglin",
+      "min_engine_version": "1.16.0",
+      "materials": {
+        "default": "iron_golem"
+      },
+      "textures": {
+        "default": "textures/entity/buglin"
+      },
+      "geometry": {
+        "default": "geometry.buglin"
+      },
+      "scripts": {
+        "animate": [
+          "move_controller",
+          "attack_controller",
+          "particle_controller"
+        ]
+      },
+      "animations": {
+        "move": "animation.buglin.move",
+        "melee": "animation.buglin.attack",
+        "idle": "animation.buglin.idle",
+        "move_controller": "controller.animation.rupter.move",
+        "attack_controller": "controller.animation.rupter.attack",
+        "particle_controller": "controller.animation.rupter.particles"
+      },
+      "particle_effects": {
+				"gore_piece_1": "srp:grey_gore_piece_1",
+				"gore_piece_2": "srp:grey_gore_piece_2",
+				"gore_piece_3": "srp:grey_gore_piece_3",
+				"gore_piece_4": "srp:grey_gore_piece_4",
+				"splatter": "srp:small_grey_gore_splatter"
+			},
+      "render_controllers": [
+        "controller.render.iron_golem"
+      ],
+      "enable_attachables": false,
+			"spawn_egg": {
+				"texture": "parasite_spawn_egg",
+				"texture_index": 3
+			}
+    }
+  }
+}

@@ -12,6 +12,21 @@
 			"geometry": {
 				"default": "geometry.cyst"
 			},
+			"scripts": {
+				"animate": [
+					"particle_controller"
+				]
+			},
+			"animations": {
+				"particle_controller": "controller.animation.cyst.particles"
+			},
+			"particle_effects": {
+				"gore_piece_1": "srp:red_gore_piece_1",
+				"gore_piece_2": "srp:red_gore_piece_2",
+				"gore_piece_3": "srp:red_gore_piece_3",
+				"gore_piece_4": "srp:red_gore_piece_4",
+				"splatter": "srp:small_red_gore_splatter"
+			},
 			"render_controllers": [
 				"controller.render.endermite"
 			],

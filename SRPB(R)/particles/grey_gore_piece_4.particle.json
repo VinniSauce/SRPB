@@ -5,7 +5,7 @@
 			"identifier": "srp:grey_gore_piece_4",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/shell_casing"
+				"texture": "textures/particle/small_gore_bits"
 			}
 		},
 		"components": {

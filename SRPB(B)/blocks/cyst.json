@@ -10,7 +10,6 @@
         "group": "itemGroup.name.parasite_decor"
 			},
       "minecraft:loot": "loot_tables/empty.json",
-      "minecraft:immovable": true,
 			"minecraft:explosion_resistance": 12,
       "minecraft:destroy_time": 5,
       "minecraft:block_light_emission": 0,

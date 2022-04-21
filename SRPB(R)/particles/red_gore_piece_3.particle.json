@@ -5,7 +5,7 @@
 			"identifier": "srp:red_gore_piece_3",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/shell_casing"
+				"texture": "textures/particle/small_gore_bits"
 			}
 		},
 		"components": {

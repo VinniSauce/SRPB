@@ -85,7 +85,11 @@
         "parasite_spawn_egg": {
             "textures": [
                 "textures/items/egg/default",
-                "textures/items/egg/cyst"
+                "textures/items/egg/cyst",
+                "textures/items/egg/rupter",
+                "textures/items/egg/buglin",
+                "textures/items/egg/assimilated_human",
+                "textures/items/egg/assimilated_human_head"
             ]
         }
     },

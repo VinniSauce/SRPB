@@ -1,0 +1,83 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.rupter.move": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": [
+						"idle"
+					],
+					"transitions": [
+						{
+							"move": "q.modified_move_speed > 0.025"
+						}
+					]
+				},
+				"move": {
+					"animations": [
+						"move"
+					],
+					"transitions": [
+						{
+							"idle": "q.modified_move_speed < 0.025"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.rupter.attack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"melee": "variable.attack_time > 0.0"
+						}
+					]
+				},
+				"melee": {
+					"animations": [
+						"melee"
+					],
+					"transitions": [
+						{
+							"default": "!variable.attack_time > 0.0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.rupter.particles": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "!query.is_alive"
+						}
+					]
+				},
+				"death": {
+					"particle_effects": [
+						{
+							"effect": "gore_piece_1"
+						},
+						{
+							"effect": "gore_piece_2"
+						},
+						{
+							"effect": "gore_piece_3"
+						},
+						{
+							"effect": "gore_piece_4"
+						},
+						{
+							"effect": "splatter"
+						}
+					]
+				}
+			}
+		}
+	}
+}

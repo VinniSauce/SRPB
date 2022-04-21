@@ -61,3 +61,12 @@ srp.packname=Scape & Run: Parasites
 
 item.spawn_egg.entity.srp:cyst_active.name=Spawn Active Cyst
 entity.srp:cyst_active.name=Active Cyst
+
+item.spawn_egg.entity.srp:rupter.name=Spawn Rupter
+entity.srp:rupter.name=Rupter
+
+item.spawn_egg.entity.srp:buglin.name=Spawn Buglin
+entity.srp:buglin.name=Buglin
+
+item.spawn_egg.entity.srp:assimilated_human.name=Spawn Assimilated Human
+entity.srp:assimilated_human.name=Assimilated Human
