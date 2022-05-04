@@ -34,7 +34,7 @@
 						"step_UV": [0, 64],
 						"frames_per_second": 16,
 						"max_frame": 16,
-						"loop": true
+						"loop": false
 					}
 				}
 			},
